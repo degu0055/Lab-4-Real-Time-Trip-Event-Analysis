@@ -1,0 +1,38 @@
+### Test trip - Expected isInteresting: false
+POST https://romeofunction.azurewebsites.net/api/trip
+Content-Type: application/json
+
+{
+  "ContentData": {
+    "vendorID": "asdasd",
+    "tripDistance": 15,
+    "passengerCount": 2,
+    "paymentType": "1"
+  }
+}
+
+### Test trip - Expected isInteresting: true
+POST https://romeofunction.azurewebsites.net/api/trip
+Content-Type: application/json
+
+{
+  "ContentData": {
+    "vendorID": "ID_2",
+    "tripDistance": 0.4,
+    "passengerCount": 6,
+    "paymentType": "2"
+  }
+}
+
+### Test trip - Suspicous
+POST https://romeofunction.azurewebsites.net/api/trip
+Content-Type: application/json
+
+{
+  "ContentData": {
+    "vendorID": "V3",
+    "tripDistance": 0.6,
+    "passengerCount": 1,
+    "paymentType": "2"
+  }
+}
