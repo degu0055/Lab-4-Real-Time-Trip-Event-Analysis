@@ -17,10 +17,10 @@ Content-Type: application/json
 
 {
   "ContentData": {
-    "vendorID": "ID_2",
-    "tripDistance": 0.4,
-    "passengerCount": 6,
-    "paymentType": "2"
+    "vendorID": "V1",
+    "tripDistance": 5,
+    "passengerCount": 2,
+    "paymentType": "1"
   }
 }
 

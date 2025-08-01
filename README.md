@@ -127,7 +127,8 @@ You may include a Python function like `send_event.py` to test sending JSON even
 
 ## 🎥 Demo Video
 
-[Insert your video link here, e.g., YouTube or OneDrive]
+[Click here to watch the demo video](https://drive.google.com/file/d/1G3u5Q_dQBcJ8-IjJlraqmEPmrl2vgBvZ/view?usp=sharing)
+
 
 ---
 
