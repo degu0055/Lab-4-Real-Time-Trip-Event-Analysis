@@ -93,7 +93,7 @@ Logic App: `TripEventAnalysisLogicApp`
 
 ### Workflow Steps:
 1. **Trigger** – `When events are available in Event Hub`
-2. **HTTP Action** – (Optional) Sends incoming data to a custom Azure Function endpoint for processing
+2. **HTTP Action** – Sends incoming data to a custom Azure Function endpoint for processing
 3. **Parse JSON** – Parses event body to extract `vendorID`, `tripDistance`, `passengerCount`, `paymentType`, `insights`, `isInteresting`, and `summary`
 4. **For Each** – Iterates through each event in the batch
 5. **Condition** – Checks if `isInteresting` is true  
