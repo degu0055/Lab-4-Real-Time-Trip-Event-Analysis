@@ -129,11 +129,3 @@ You may include a Python function like `send_event.py` to test sending JSON even
 
 [Click here to watch the demo video](https://drive.google.com/file/d/1G3u5Q_dQBcJ8-IjJlraqmEPmrl2vgBvZ/view?usp=sharing)
 
-
----
-
-## ✅ Submission Notes
-
-- This repository is public and well-structured as per assignment guidelines.
-- Logic App definition and Adaptive Card JSONs are included.
-- Demo video link is provided above (if available).
